@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass ./sass/main.scss  ./css/style.css -w",
+    "prefix:css": "autoprefixer ./css/style.css -o ./css/style.prefix.css",
+    "compile:sass-variables": "sass-to-css-variables ./css/style.css -o ./css/output.css"
+  },
+  "author": "Ezzat Abdelrazek",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.5",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "sass-to-css-variables": "^1.0.1"
+  }
+}
